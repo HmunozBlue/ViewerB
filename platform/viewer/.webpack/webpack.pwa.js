@@ -115,7 +115,7 @@ module.exports = (env, argv) => {
       open: true,
       port: 3000,
       host: '0.0.0.0',
-      public: 'http://localhost:' + 3000, //'https://images.mibluemedical.com', //'http://localhost:' + 3000,
+      public: 'https://images.mibluemedical.com', //'https://images.mibluemedical.com', //'http://localhost:' + 3000,
       historyApiFallback: {
         disableDotRule: true,
       },
